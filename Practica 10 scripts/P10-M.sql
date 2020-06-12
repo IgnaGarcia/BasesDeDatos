@@ -1,0 +1,5 @@
+-- M) Calcular la cantidad de facturas en las que vendieron articulos del rubro 3
+--    (Rsta: 26 facturas)
+SELECT COUNT(D.NROFACTURA)
+FROM DETALLES D INNER JOIN ARTICULOS A ON D.ARTICULO=A.NROARTIC INNER JOIN RUBROS R ON A.RUBRO=R.COD_RUBRO
+WHERE R.COD_RUBRO=3  --ELIMINAR TUPLAS DUPLICADAS?

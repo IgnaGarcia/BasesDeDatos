@@ -1,0 +1,7 @@
+-- EJERCICIOS:
+-- U) Aumentar un 10% el stock m�nimo de los art�culos del rubro 'Tornillos'
+-- V) Agregar la columna color (alfabetico) a la tabla ARTICULOS
+-- W) Dar permisos de lectura y actualizacion a los usuarios 'SIST' y 'ADMIN'
+--    sobre la tabla ARTICULOS
+-- 2) Agregar la columna TOTAL en la tabla FACTURAS. Actualizar la misma con el total
+--    segun corresponda.

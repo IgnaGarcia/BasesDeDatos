@@ -1,0 +1,4 @@
+-- X) Generar una view con los articulos del rubro "Clavos"
+SELECT A.*
+FROM ARTICULOS A INNER JOIN RUBROS R ON A.RUBRO=R.COD_RUBRO
+WHERE R.DESCRIPCION ILIKE 'CLAVOS'
